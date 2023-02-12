@@ -1,9 +1,7 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+.home-slider.owl-carousel.owl-loaded.owl-drag {
+  height: 87vh;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -217,11 +215,6 @@ select {
 select {
   word-wrap: normal; }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -241,12 +234,6 @@ input[type="checkbox"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0; }
-
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox; }
 
 textarea {
   overflow: auto;
@@ -278,7 +265,7 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none; }
+ }
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -9229,7 +9216,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -9686,11 +9672,3 @@ textarea.form-control {
 
 
     
-/*___________ EXTRA ______________*/
-.contact-section .contact-form {
-  width: 100%;
-  border-radius: 24px;
-}
-.contact-section .contact-form textarea {
-  resize: none;
-}

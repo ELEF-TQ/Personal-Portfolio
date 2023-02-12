@@ -27,9 +27,7 @@ $secondary: #a0f669;
     transition:         all $transition ease;
 }
 
-html {
-	// overflow-x: hidden;
-}
+
 body {
 	font-family: $font-primary;
 	background: $black;
@@ -1189,16 +1187,13 @@ textarea.form-control {
 //ABOUT
 .about-author{
 	@include border-radius(5px);
-	img{
-	}
+	
 	.desc{
 		h3{
 			font-size: 24px;
 		}
 	}
-	.bio{
-
-	}
+	
 }
 
 
@@ -1429,7 +1424,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out; 
   -moz-transition: all 0.3s ease-out; 
   -o-transition: all 0.3s ease-out; 
@@ -1459,10 +1453,7 @@ textarea.form-control {
 	@include media-breakpoint-down(lg){
 		background-position: center center !important;
 	}
-	.icon{
-		span{
-		}
-	}
+	
 	.block-18{
 		display: block;
 		width:100%;
@@ -1586,16 +1577,7 @@ textarea.form-control {
 
 .block-6 {
 	margin-bottom: 40px;
-	.icon {
-		span {
-			&:before {
-			}
-		}
-	}
 	.media-body {
-		.heading {
-
-		}
 		p {
 			font-size: 16px;
 		}
@@ -1638,7 +1620,6 @@ textarea.form-control {
 			a{
 				color: lighten($black,10%);
 			}
-			span{}
 		}
 	}
 	.box{
@@ -1683,7 +1664,6 @@ textarea.form-control {
 			a{
 				color: $white;
 			}
-			span{}
 		}
 	}
 	.contact-form{
@@ -1697,15 +1677,11 @@ textarea.form-control {
 	}
 }
 .block-9 {
-
 	.form-control {
 		outline: none!important;
 		box-shadow: none!important;
 		font-size: 15px;
 	}
-	#map {
-	}
-
 }
 
 
