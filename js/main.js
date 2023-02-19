@@ -1,4 +1,24 @@
- AOS.init({
+/*Email Automation */
+function sendMail(){
+	const serviceID = "service_yd6s2kq" ;
+    const templateID = "template_hft6zfb" ;
+	const publicKey = "XwegfC8_wSm2KUVzQ" ;
+	const params = {
+		name : document.getElementById("name").value ,
+		email : document.getElementById("email").value ,
+		message : document.getElementById("message").value,
+	} ;
+	emailjs.send(serviceID, templateID, params ,publicKey)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+}
+/*Email Automation */
+
+
+AOS.init({
  	duration: 800,
  	easing: 'slide'
  });
