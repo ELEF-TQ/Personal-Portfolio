@@ -9982,3 +9982,28 @@ opacity: 1;
 .skill_container .skill-img img {
   width: 50px;
 }
+
+/*__________Perso style________*/
+
+/*_______About Section */
+.about_content .about_desc p {
+  width: 85%;
+}
+.about_content .about_info ul li > span:first-child {
+   width: 100px;
+}
+@media (max-width:996px) {
+   .about_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .about_content .about_desc {
+    padding: 20px;
+   }
+   .about_content .about_desc p {
+    width: 100%;
+    font-size: 15px;
+   }
+}
+
