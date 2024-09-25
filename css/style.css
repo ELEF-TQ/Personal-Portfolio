@@ -9284,6 +9284,7 @@ textarea.form-control {
   height: 350px; }
 
 .blog-entry {
+  width: 20rem;
   position: relative; }
   @media (min-width: 768px) {
     .blog-entry {
